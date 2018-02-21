@@ -4,6 +4,7 @@ For the example to work run:
 
 ```
 bundle install
-bundle rake db:seed
-rails s
+bin/rails db:migrate
+bin/rails db:seed
+bin/rails s
 ```
